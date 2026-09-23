@@ -1,0 +1,11 @@
+# Table S3. Early-timepoint ASV overlap at a common 1,000-read rarefaction depth.
+# Fetus 2/3 samples usable, Newborn 2/3, reared (Later) 26/26. |Fetus|=167, |Newborn|=81, |Later|=281 ASVs.
+# 70 of 231 early ASVs (30%) were also detected in reared snakes.
+region	full_reared_set	matched_n_mean_SD_(2_animals_x100_draws)
+Fetus only	140	147.2 +/- 2.3
+Newborn only	20	46.0 +/- 4.1
+Fetus & Newborn only	1	4.0 +/- 1.2
+Later only	211	33.2 +/- 7.4
+Fetus & Later	10	2.8 +/- 2.3
+Newborn & Later	44	18.0 +/- 4.1
+Fetus & Newborn & Later	16	13.0 +/- 1.2

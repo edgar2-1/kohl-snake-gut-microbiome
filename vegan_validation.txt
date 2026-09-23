@@ -1,0 +1,29 @@
+# Output of scripts/validate_vegan.R, run 16 Sep 2026 on the analysis host in the QIIME 2 2026.4 conda environment
+# (/opt/miniforge3/envs/rachis-qiime2-2026.4). The same environment re-ran qiime/adonis_stratified.R and reproduced
+# figures/Fig12_adonis_stratified.tsv (19 May 2026) exactly on all 36 rows (df, SumOfSqs, R2, F).
+
+R version 4.5.2 (2025-10-31) 
+vegan 2.7.3 | permute 0.9.10 
+reared animals: 26 | Clean = 16 | Muck = 10 
+
+Bray-Curtis        n = 26   AGREES
+  environment  adonis2 F = 3.657  R2 = 0.132   (manuscript F = 3.657, R2 = 0.132; free-permutation P = 0.0137, for reference only)
+  dam          adonis2 F = 4.53   R2 = 0.382   P = 0.0003   (manuscript F = 4.53, R2 = 0.382)
+  dispersion   betadisper F = 1.303  P = 0.2688   (manuscript F = 1.303, P = 0.17)
+
+Jaccard            n = 26   AGREES
+  environment  adonis2 F = 2.405  R2 = 0.091   (manuscript F = 2.405, R2 = 0.091; free-permutation P = 0.0003, for reference only)
+  dam          adonis2 F = 3.14   R2 = 0.300   P = 0.0001   (manuscript F = 3.14, R2 = 0.300)
+  dispersion   betadisper F = 1.295  P = 0.2636   (manuscript F = 1.295, P = 0.26)
+
+Unweighted UniFrac n = 26   AGREES
+  environment  adonis2 F = 5.379  R2 = 0.183   (manuscript F = 5.379, R2 = 0.183; free-permutation P = 0.0001, for reference only)
+  dam          adonis2 F = 2.40   R2 = 0.246   P = 0.0002   (manuscript F = 2.40, R2 = 0.246)
+  dispersion   betadisper F = 10.885  P = 0.0041   (manuscript F = 10.885, P = 0.005)
+
+Weighted UniFrac   n = 26   AGREES
+  environment  adonis2 F = 5.389  R2 = 0.183   (manuscript F = 5.389, R2 = 0.183; free-permutation P = 0.0039, for reference only)
+  dam          adonis2 F = 3.81   R2 = 0.342   P = 0.0003   (manuscript F = 3.81, R2 = 0.342)
+  dispersion   betadisper F = 1.509  P = 0.2283   (manuscript F = 1.509, P = 0.17)
+
+ALL FOUR METRICS AGREE with vegan to the reported precision.

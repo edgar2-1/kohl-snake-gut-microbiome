@@ -1,0 +1,13 @@
+{
+  "name": "kohl-snake-gut-microbiome",
+  "private": true,
+  "description": "Analysis and figure scripts for the Nerodia rhombifer neonate gut microbiome study",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "h5wasm": "^0.10.3",
+    "sharp": "^0.35.2"
+  }
+}

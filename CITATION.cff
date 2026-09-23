@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use these data or code, please cite the article."
+title: "Data and code: Rearing environment and maternal identity shape the gut microbiome of neonate Diamond-backed Watersnakes (Nerodia rhombifer)"
+type: software
+license: MIT
+repository-code: "https://github.com/edgar2-1/kohl-snake-gut-microbiome"
+authors:
+  - family-names: Rosado-Ramos
+    given-names: Edgardo L.
+  - family-names: Jayne
+    given-names: Bruce C.
+  - family-names: Kohl
+    given-names: Kevin D.
+  - family-names: Secor
+    given-names: Stephen M.
+  - family-names: Colston
+    given-names: Timothy J.
+preferred-citation:
+  type: article
+  title: "Rearing environment and maternal identity shape the gut microbiome of neonate Diamond-backed Watersnakes (Nerodia rhombifer)"
+  journal: "Journal of Herpetology"
+  status: submitted
+  authors:
+    - family-names: Rosado-Ramos
+      given-names: Edgardo L.
+    - family-names: Jayne
+      given-names: Bruce C.
+    - family-names: Kohl
+      given-names: Kevin D.
+    - family-names: Secor
+      given-names: Stephen M.
+    - family-names: Colston
+      given-names: Timothy J.

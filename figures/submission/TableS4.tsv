@@ -1,0 +1,43 @@
+# Table S4. Per-sample metadata for the 37 sequenced libraries. Treatment follows the
+# primary-comparison coding, in which Clean denotes the 16 clean-reared animals only
+# (the environment column of the working metadata groups the three Fetus samples with
+# them). Exposure is days from birth to sampling. Sequencing depth is nonchimeric reads
+# after DADA2. SS120 is the extraction control, denoised with the other libraries.
+library	dam	treatment	exposure_days	fed	sex	SVL_cm	total_length_cm	mass_g	birth_date	sampling_date	sample_class	negative_control	nonchimeric_reads
+SS004	11.21	Clean	9	No	F	21.7	28.5	9.76	2019-08-21	2019-08-30	Annotated	false	36425
+SS007	11.22	Muck	19	Yes	M	20.6	28.2	10.47	2019-08-30	2019-09-18	Annotated	false	50923
+SS011	NR1908	Muck	14	No	F	22.7	29.8	10.36	NA	NA	Annotated	false	39453
+SS016	11.21	Clean	9	No	M	20.6	28.0	8.52	2019-08-21	2019-08-30	Annotated	false	64055
+SS019	11.22	Muck	7	No	F	20.6	27.1	10.1	2019-08-30	2019-09-06	Annotated	false	48081
+SS023	NR1910	Fetus	0	No	M	21.6	29.5	11.09	NA	NA	Annotated	false	8084
+SS028	11.21	Muck	9	No	F	21.6	28.8	9.38	2019-08-21	2019-08-30	Annotated	false	34010
+SS031	11.22	Clean	17	No	M	20.2	26.8	9.61	2019-08-30	2019-09-16	Annotated	false	36696
+SS035	NR1910	Fetus	0	No	M	24.0	32.0	11.46	NA	NA	Annotated	false	1003
+SS040	11.21	Muck	9	No	M	21.0	28.5	9.46	2019-08-21	2019-08-30	Annotated	false	34352
+SS043	11.22	Clean	17	No	M	19.8	27.4	9.39	2019-08-30	2019-09-16	Annotated	false	36681
+SS047	NR1908	Clean	14	No	F	24.0	30.9	10.83	NA	NA	Annotated	false	36283
+SS051	11.21	Newborn	0	No	M	20.4	27.8	8.93	2019-08-21	NA	Annotated	false	5840
+SS052	11.21	Muck	9	No	F	20.5	27.0	9.14	2019-08-21	2019-08-30	Annotated	false	39210
+SS054	11.22	Clean	19	Yes	M	20.1	27.5	9.53	2019-08-30	2019-09-18	Annotated	false	35050
+SS055	11.22	Newborn	0	No	M	20.5	28.0	9.02	2019-08-30	NA	Annotated	false	16705
+SS059	NR1908	Clean	14	No	M	22.5	30.8	10.37	NA	NA	Annotated	false	51668
+SS063	11.21	Clean	9	No	F	20.0	26.3	8.16	2019-08-21	2019-08-30	Annotated	false	49985
+SS064	11.21	Muck	9	No	F	20.8	27.4	9.62	2019-08-21	2019-08-30	Annotated	false	36753
+SS066	11.22	Clean	17	No	F	20.4	26.5	9.5	2019-08-30	2019-09-16	Annotated	false	50693
+SS070	NR1912	Clean	14	Yes	F	25.0	32.7	13.1	NA	NA	Annotated	false	26442
+SS071	NR1908	Clean	14	No	F	22.5	30.5	10.45	NA	NA	Annotated	false	53117
+SS075	11.21	Clean	9	No	F	21.6	28.3	10.34	2019-08-21	2019-08-30	Annotated	false	31324
+SS076	11.21	Muck	9	No	F	21.3	28.8	9.49	2019-08-21	2019-08-30	Annotated	false	20010
+SS078	11.22	Clean	19	Yes	M	20.3	28.0	10.64	2019-08-30	2019-09-18	Annotated	false	55816
+SS082	NR1912	Clean	14	Yes	F	24.8	32.2	11.76	NA	NA	Annotated	false	56701
+SS083	NR1908	Clean	14	No	F	23.0	29.5	9.65	NA	NA	Annotated	false	52884
+SS087	11.21	Clean	9	No	F	21.3	28.0	9.97	2019-08-21	2019-08-30	Annotated	false	34767
+SS088	11.21	Newborn	0	No	F	20.7	27.1	9.44	2019-08-21	NA	Annotated	false	1573
+SS090	11.22	Muck	19	Yes	F	21.8	27.8	9.55	2019-08-30	2019-09-18	Annotated	false	57581
+SS094	NR1910	Fetus	0	No	M	22.5	30.5	11.43	NA	NA	Annotated	false	12218
+SS095	NR1908	Muck	14	No	F	22.7	29.4	10.44	NA	NA	Annotated	false	48308
+Blank1	NA	NegativeControl	NA	NA	NA	NA	NA	NA	NA	NA	Blank	true	81
+Blank2	NA	NegativeControl	NA	NA	NA	NA	NA	NA	NA	NA	Blank	true	44
+Blank3	NA	NegativeControl	NA	NA	NA	NA	NA	NA	NA	NA	Blank	true	47
+Blank4	NA	NegativeControl	NA	NA	NA	NA	NA	NA	NA	NA	Blank	true	142
+SS120	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	Extraction control	true	141

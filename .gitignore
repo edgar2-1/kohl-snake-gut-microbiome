@@ -1,0 +1,23 @@
+# Raw reads live in NCBI SRA
+*.fastq
+*.fastq.gz
+*.fq.gz
+*.zip
+
+# Node
+node_modules/
+package-lock.json
+
+# Manuscript drafts are not part of the repository
+*.docx
+~$*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+__pycache__/
+*.pyc
+.Rhistory
+.vscode/
+.idea/

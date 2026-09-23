@@ -1,0 +1,65 @@
+﻿Extraction control (SS120) re-run â€” QIIME 2 2026.4, all 37 libraries denoised together
+Working dir: /root/kohl_v1/qiime/16s_kc  (published run left untouched at qiime/16s)
+
+############ 1. DENOISING: did SS120 yield usable reads? ############
+  sample-id              input        filtered  percentage of         denoised          merged  percentage of     non-chimeric  percentage of 
+  Blank1                 135              92           68.15              81              81              60              81              60
+  Blank2                  56              46           82.14              44              44           78.57              44           78.57
+  Blank3                  76              54           71.05              47              47           61.84              47           61.84
+  Blank4                 178             146           82.02             142             142           79.78             142           79.78
+  SS023                12551           10334           82.34           10319            8134           64.81            8084           64.41
+  SS094                35274           26994           76.53           26909           13010           36.88           12218           34.64
+  SS120                  231             153           66.23             153             141           61.04             141           61.04
+
+############ 2. WHAT IS IN THE KIT CONTROL (SS120) ############
+  SS120 total reads after host filtering: 141
+  PCR blanks total: 238   biological samples: 32
+
+  ASVs detected in SS120: 5
+  top 15 by reads, with their prevalence across the 32 biological samples:
+        44 reads  g__Ralstonia                               in  1/32 bio samples, 0.001% of bio reads
+        40 reads  g__Burkholderia-Caballeronia-Paraburkholde in  2/32 bio samples, 0.004% of bio reads
+        28 reads  g__Incertae_Sedis                          in  0/32 bio samples, 0.000% of bio reads
+        17 reads  g__Anaerolinea                             in  0/32 bio samples, 0.000% of bio reads
+        12 reads  g__Incertae_Sedis                          in  0/32 bio samples, 0.000% of bio reads
+
+############ 3. DECONTAM VERDICT (5 controls: 4 PCR blanks + SS120) ############
+  features tested: 1057
+  flagged as contaminant: 7
+  flagged features:
+    g__Anaerolinea                                 neg_prev=0.20 bio_prev=0.00 bio_reads=0
+    g__Incertae_Sedis                              neg_prev=0.20 bio_prev=0.00 bio_reads=0
+    g__Sphingomonas                                neg_prev=0.80 bio_prev=0.00 bio_reads=0
+    g__Incertae_Sedis                              neg_prev=0.20 bio_prev=0.00 bio_reads=0
+    g__Ralstonia                                   neg_prev=0.20 bio_prev=0.03 bio_reads=7
+    g__Chryseobacterium                            neg_prev=0.20 bio_prev=0.00 bio_reads=0
+    g__Burkholderia-Caballeronia-Paraburkholderia  neg_prev=0.20 bio_prev=0.06 bio_reads=47
+
+############ 4. DOES THE BIOLOGICAL TABLE CHANGE? ############
+  published clean table : 1052 ASVs x 32 biological samples
+  re-run clean table    : 1050 ASVs x 32 biological samples
+  ASV IDs shared (identical sequences): 1050
+    only in published: 2    only in re-run: 0
+  per-sample read totals: mean change -2 reads (0.00% of mean depth)
+    largest single-sample change: 24 reads
+
+############ DONE ############
+
+Beta diversity, Clean vs Muck (n = 26), 9,999 permutations
+  metric                 pseudo-F      R2         P     | PUBLISHED R2 / P
+  bray_curtis             3.622    0.1311    0.0134  |  0.132 / 0.013
+  jaccard                 2.495    0.0942    0.0004  |  0.091 / 0.0008
+  unweighted_unifrac      5.806    0.1948    0.0001  |  0.183 / 0.0001
+  weighted_unifrac        4.182    0.1484    0.0104  |  0.183 / 0.0031
+
+Alpha diversity, Clean vs Muck (Mann-Whitney U)
+  metric              Clean med    Muck med       P     | PUBLISHED Clean / Muck / P
+  observed_features     59.000      70.500    0.0037  |  58.5 / 70.0 / 0.016
+  faith_pd               4.286       5.874    0.0012  |  3.53 / 5.11 / 0.0012
+  shannon                3.701       3.545    0.3041  |  3.71 / 3.56 / 0.18
+  evenness               0.623       0.574    0.0010  |  0.632 / 0.578 / 0.0048
+
+NOTE: exact values are not bit-reproducible across runs. FastTree and the
+rarefaction subsample are both stochastic, so UniFrac distances and Faith's PD
+shift slightly on any re-run, independently of the added control. What matters
+is that every significant result remains significant and every null remains null.

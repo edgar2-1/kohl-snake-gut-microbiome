@@ -1,0 +1,38 @@
+sample-id	mother	environment	primary-comparison	age-class	fed	sex	SVL_cm	TL_cm	mass_g	age_days	birth_date	sacrifice_date	is-negative-control	sample-class
+#q2:types	categorical	categorical	categorical	categorical	categorical	categorical	numeric	numeric	numeric	numeric	categorical	categorical	categorical	categorical
+SS004	11.21	Sterile	Sterile	9d	No	F	21.7	28.5	9.76	9	2019-08-21	2019-08-30	false	Annotated
+SS007	11.22	Muck	Muck	19d	Yes	M	20.6	28.2	10.47	19	2019-08-30	2019-09-18	false	Annotated
+SS011	NR1908	Muck	Muck	14d	No	F	22.7	29.8	10.36	14			false	Annotated
+SS016	11.21	Sterile	Sterile	9d	No	M	20.6	28.0	8.52	9	2019-08-21	2019-08-30	false	Annotated
+SS019	11.22	Muck	Muck	7d	No	F	20.6	27.1	10.1	7	2019-08-30	2019-09-06	false	Annotated
+SS023	NR1910	Sterile	Fetus	Fetus	No	M	21.6	29.5	11.09	0			false	Annotated
+SS028	11.21	Muck	Muck	9d	No	F	21.6	28.8	9.38	9	2019-08-21	2019-08-30	false	Annotated
+SS031	11.22	Sterile	Sterile	17d	No	M	20.2	26.8	9.61	17	2019-08-30	2019-09-16	false	Annotated
+SS035	NR1910	Sterile	Fetus	Fetus	No	M	24.0	32.0	11.46	0			false	Annotated
+SS040	11.21	Muck	Muck	9d	No	M	21.0	28.5	9.46	9	2019-08-21	2019-08-30	false	Annotated
+SS043	11.22	Sterile	Sterile	17d	No	M	19.8	27.4	9.39	17	2019-08-30	2019-09-16	false	Annotated
+SS047	NR1908	Sterile	Sterile	14d	No	F	24.0	30.9	10.83	14			false	Annotated
+SS051	11.21	Newborn	Newborn	Newborn	No	M	20.4	27.8	8.93	0	2019-08-21		false	Annotated
+SS052	11.21	Muck	Muck	9d	No	F	20.5	27.0	9.14	9	2019-08-21	2019-08-30	false	Annotated
+SS054	11.22	Sterile	Sterile	19d	Yes	M	20.1	27.5	9.53	19	2019-08-30	2019-09-18	false	Annotated
+SS055	11.22	Newborn	Newborn	Newborn	No	M	20.5	28.0	9.02	0	2019-08-30		false	Annotated
+SS059	NR1908	Sterile	Sterile	14d	No	M	22.5	30.8	10.37	14			false	Annotated
+SS063	11.21	Sterile	Sterile	9d	No	F	20.0	26.3	8.16	9	2019-08-21	2019-08-30	false	Annotated
+SS064	11.21	Muck	Muck	9d	No	F	20.8	27.4	9.62	9	2019-08-21	2019-08-30	false	Annotated
+SS066	11.22	Sterile	Sterile	17d	No	F	20.4	26.5	9.5	17	2019-08-30	2019-09-16	false	Annotated
+SS070	NR1912	Sterile	Sterile	14d	Yes	F	25.0	32.7	13.1	14			false	Annotated
+SS071	NR1908	Sterile	Sterile	14d	No	F	22.5	30.5	10.45	14			false	Annotated
+SS075	11.21	Sterile	Sterile	9d	No	F	21.6	28.3	10.34	9	2019-08-21	2019-08-30	false	Annotated
+SS076	11.21	Muck	Muck	9d	No	F	21.3	28.8	9.49	9	2019-08-21	2019-08-30	false	Annotated
+SS078	11.22	Sterile	Sterile	19d	Yes	M	20.3	28.0	10.64	19	2019-08-30	2019-09-18	false	Annotated
+SS082	NR1912	Sterile	Sterile	14d	Yes	F	24.8	32.2	11.76	14			false	Annotated
+SS083	NR1908	Sterile	Sterile	14d	No	F	23.0	29.5	9.65	14			false	Annotated
+SS087	11.21	Sterile	Sterile	9d	No	F	21.3	28.0	9.97	9	2019-08-21	2019-08-30	false	Annotated
+SS088	11.21	Newborn	Newborn	Newborn	No	F	20.7	27.1	9.44	0	2019-08-21		false	Annotated
+SS090	11.22	Muck	Muck	19d	Yes	F	21.8	27.8	9.55	19	2019-08-30	2019-09-18	false	Annotated
+SS094	NR1910	Sterile	Fetus	Fetus	No	M	22.5	30.5	11.43	0			false	Annotated
+SS095	NR1908	Muck	Muck	14d	No	F	22.7	29.4	10.44	14			false	Annotated
+Blank1	NA	NA	NegativeControl	NA	NA	NA							true	Blank
+Blank2	NA	NA	NegativeControl	NA	NA	NA							true	Blank
+Blank3	NA	NA	NegativeControl	NA	NA	NA							true	Blank
+Blank4	NA	NA	NegativeControl	NA	NA	NA							true	Blank

@@ -1,0 +1,5 @@
+Metric	R2_dam	R2_facility	R2_dam_within_facility	frac_of_dam_R2_between_facility	P_dam_within_facility	P_facility_free_perm
+Bray-Curtis	0.382	0.1405	0.2415	0.3679	0.0018	0.0021
+Jaccard	0.2998	0.1106	0.1892	0.3688	0.0001	0.0001
+Unweighted UniFrac	0.2462	0.0893	0.1569	0.3628	0.0012	0.0027
+Weighted UniFrac	0.342	0.1436	0.1985	0.4197	0.0058	0.0056
