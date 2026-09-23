@@ -60,6 +60,10 @@ for i in 1 2 3 4 5 6; do node scripts/figures/fig$i.js; done
 
 `facility_partition.py` uses a fixed seed and reproduces `figures/submission/TableS2_facility_partition.tsv` byte for byte. Table S3 (early-sample ASV overlap at 1,000 reads) and Table S4 (per-sample metadata) are provided as computed; the script that produced Table S3 is not included.
 
+## AI assistance
+
+The statistical analyses and the preparation of this repository were assisted by Claude (Anthropic). The authors reviewed the code and results and take responsibility for them.
+
 ## License
 
 Code: MIT (see `LICENSE`). Data, tables and figures: CC BY 4.0.
